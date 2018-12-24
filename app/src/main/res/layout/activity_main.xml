@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="3dp">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.1"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_margin="2dp">
+
+        <EditText
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.85"
+                android:layout_height="45dp"
+                android:hint="Make a Request"
+                android:textColor="#6e0808"
+                android:background="@drawable/drawabletext"
+                android:id="@+id/ed1"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.15"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_globe"
+                android:id="@+id/bt"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <WebView
+            android:layout_width="match_parent"
+            android:layout_weight="0.85"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:id="@+id/wview"
+    android:background="@drawable/drawabletext"></WebView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.10"
+            android:layout_height="0dp"
+                android:padding="2dp">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_001_search"
+                android:id="@+id/gl"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_002_facebook"
+                android:id="@+id/fb"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_003_youtube"
+                android:id="@+id/you"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_004_android"
+                android:id="@+id/html"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
